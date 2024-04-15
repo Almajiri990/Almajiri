@@ -7,4 +7,5 @@ let assoc = {
     boy: "yokao"
     animal: "goat"
 }
+assoc.boy = "Quadri"
 console.log(assoc.boy);

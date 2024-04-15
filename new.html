@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./new.css">
+  
+</head>
+<body>
+        <div class="nav-header">
+          <div class="nav-brand">
+          <img src="./TYPESCRIPT/newimage.png" alt="icon-bar"  style="height: 200px; width: 200px;"  srcset="">
+        </div>
+          <i class="fa fa-bars fa-3x"></i>
+          <div class="header-links">
+            <ul>
+              <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+              <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+              <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+            </ul>
+          </div>
+        </div>
+
+      
+        <div class="nav-screen">
+          <i class="fa fa-times fa-3x"></i>
+          <div class="nav-container">
+            <div class="nav-links">
+              <ul id='myMenu'>
+                <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+                <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+                <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+        <div id="fullpage">
+          <div class="section aboutme" data-anchor="aboutme">
+            <div class="opaque-bg animated fadeInDown">
+              <h1 style="color:white">AYODEJI<span style="color:#FF6363">/</span>OBAYEMI</h1>
+              <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+              <h2 style="color: white">De Balance Outfit</h2>
+            </div>
+            <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+          </div>
+          <div class="section" data-anchor="skills">
+            <div class="content">
+              <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Greetings! I'm Ayodeji Obayemi, a budding software developer enthusiastic about leveraging technology to solve real-world problems. With a foundational knowledge in programming languages such as Python, Java, and JavaScript, I am eager to embark on a journey of continuous learning and growth in the dynamic realm of software development.</p>
+      
+              <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+                <div class="skillbar clearfix " data-percent="60%">
+                  <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
+                  <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                  <div class="skill-bar-percent">60%</div>
+                </div> 
+      
+                <div class="skillbar clearfix " data-percent="50%">
+                  <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
+                  <div class="skillbar-bar" style="background: #EBB035;"></div>
+                  <div class="skill-bar-percent">50%</div>
+                </div> 
+      
+                <div class="skillbar clearfix " data-percent="60%">
+                  <div class="skillbar-title" style="background: #218559;"><span>JAVASCRIPT</span></div>
+                  <div class="skillbar-bar" style="background: #218559;"></div>
+                  <div class="skill-bar-percent">60%</div>
+                </div>
+     
+                <div class="skillbar clearfix " data-percent="30%">
+                  <div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
+                  <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                  <div class="skill-bar-percent">0%</div>
+                </div> 
+      
+                <div class="skillbar clearfix " data-percent="20%">
+                  <div class="skillbar-title" style="background: #AB4DD2;"><span>PHP</span></div>
+                  <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+                  <div class="skill-bar-percent">0%</div>
+                </div> 
+              </div>
+            </div>
+          </div>
+         
+      
+          <div class="section" data-anchor="projects">
+            <div class="content-slide">
+              <div class="slide">
+                <h1 class="wow fadeInDown" data-wow-delay="0.2s">PROJECT</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s">BMI CALCULATOR</p>
+                <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="c:\Users\Abdulquadri.DESKTOP-U0VIELR\Pictures\Screenshots\Screenshot 2024-02-06 112516.png">
+              </div>
+              
+          </div>
+      
+          <div class="section" data-anchor="contact">
+            <div class="content wow fadeInDown" data-wow-delay="0.2s">
+              <h1>CONTACT ME</h1>
+              <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
+              <br>
+              <div class="contact-form">
+      
+                <div id="form-messages"></div>
+                <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+                  <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+                    <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="hidden">
+                    <input type="text" class="form-control" id="human" name="human" placeholder="">
+                  </div>
+                  <div class="wow fadeInUp" data-wow-delay="1s">
+                    <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+                  </div>
+                </form>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="section fp-auto-height">
+            <div class="footer">
+              <p>CONNECT WITH ME</p>
+              <div class="social-links">
+                <span><a href=https://www.linkedin.com/in/ayodeji-obayemi-abdulquadri-4864b6246/ target="_blank"><i class="Obayemi Ayodeji"></i></a></span>
+                <span><a target="_blank" href="https://x.com/Al_Majiri99?t=YyD3xHn2pmMKk_AKbJcAAQ&s=09" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+                <span><a href="https://github.com/Almajiri990" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+              </div>
+            </div>
+          </div>      
+        </div>
+      </body>
+      <script src="./new.js"></script>
+</body>
+</html>

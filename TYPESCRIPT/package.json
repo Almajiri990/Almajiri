@@ -1,0 +1,12 @@
+{
+  "name": "almajiri",
+  "version": "1.0.0",
+  "description": "a Portfolio for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

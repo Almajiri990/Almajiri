@@ -7,3 +7,7 @@ console.log(area);
 let b = undefined
 let c - Boolean
 console.log(c);
+
+let d = "55"
+let e = parseInt()
+console.log(e);

@@ -1,0 +1,11 @@
+#layout{
+    width: 250px;
+}
+#display{
+    display: flex;
+}
+#side-nav{
+    width: 250px;
+    height: 100%;
+    padding: 30px 10px;
+}
