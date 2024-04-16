@@ -88,6 +88,7 @@ function Transactions() {
             <li key={index}>
               {transaction.category}: ${transaction.amount.toFixed(2)}
               <button onClick={() => deleteTransaction(index)}>Delete</button>
+              <button onClick={() => editTransaction(index)}>Edit</button>
             </li>
           ))}
         </ul>
